@@ -1,0 +1,30 @@
+@font-face {
+    font-family: sloganFont;
+    src: url('../font/小美体.ttf');
+}
+
+.slogan {
+    font-family: sloganFont, sans-serif;
+    color: tomato;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.main-body {
+    background: rgba(240, 240, 240, .6);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.title {
+    color: white;
+}
+
+.text {
+    color: black;
+    font-size: 18px;
+    font-style: revert;
+    font-family: sloganFont, sans-serif;
+}

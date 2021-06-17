@@ -1,0 +1,9 @@
+.navbar:hover {
+    background: rgba(255, 255, 255, 1);
+    transition: all .7s linear;
+}
+
+.dropdown-left {
+    right: 0;
+    left: inherit;
+}

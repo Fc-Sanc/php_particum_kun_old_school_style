@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: url("../img/background/background_002.png") no-repeat fixed center 0;
+    background-size: cover;
+}
+
+.nav-title {
+    font-family: 最右体, sans-serif;
+}

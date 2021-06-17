@@ -1,0 +1,52 @@
+@font-face {
+    font-family: titleFont;
+    src: url("../font/最右体.ttf");
+}
+
+.label-text {
+    color: black;
+}
+
+.text-input {
+    width: 25vw;
+}
+
+.HomePage-login-form {
+    width: 30vw;
+    margin: 20px auto;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    transition: all .4s linear;
+}
+
+.HomePage-register-form {
+    background: rgba(255, 255, 255, 0.4);
+    width: 30vw;
+    margin: 10vh auto;
+    border-radius: 4px;
+    position: absolute;
+    right: 100px;
+    transition: all .4s linear;
+}
+
+.HomePage-login-form:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transition: all .4s linear;
+}
+
+.HomePage-title {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: #f0ad4e;
+    font-family: titleFont, sans-serif;
+    font-size: 80px;
+}
+
+.HomePage-subtitle {
+    color: #f0ad4e;
+    font-family: titleFont, sans-serif;
+    font-size: 20px;
+}
